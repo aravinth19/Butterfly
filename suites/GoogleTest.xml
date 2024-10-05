@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Google Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentTestNGITestListener"></listener>
+    </listeners>
     <test name="Google UI Test">
         <classes>
             <class name="GoogleTest"/>
